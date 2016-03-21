@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-059ff2a576c2aa562673c0cb81fca1edd78628ef	puppet-rsync-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+94811fd1a6e977e73a97d23ee4781e6a63e8ff16       	puppet-rsync-distgit-core
+059ff2a576c2aa562673c0cb81fca1edd78628ef        	puppet-rsync-distgit-ptl
+global:Registered-Users		Registered Users
