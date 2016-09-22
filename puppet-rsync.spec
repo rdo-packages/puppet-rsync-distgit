@@ -7,8 +7,8 @@
 
 
 Name:           puppet-rsync
-Version:        XXX
-Release:        XXX
+Version:        0.4.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Manages rsync clients, repositories, and servers, & providies defines to easily grab data via rsync.
 License:        Apache-2.0
 
@@ -51,4 +51,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/rsync/
 
 
 %changelog
+* Thu Sep 22 2016 Haikel Guemar <hguemar@fedoraproject.org> - 0.4.0-1.8cc3c6f.git
+- Newton update 0.4.0 (8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b)
+
 
