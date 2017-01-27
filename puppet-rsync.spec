@@ -10,7 +10,7 @@ Name:           puppet-rsync
 Version:        0.4.0
 Release:        1%{?alphatag}%{?dist}
 Summary:        Manages rsync clients, repositories, and servers, & providies defines to easily grab data via rsync.
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-rsync
 
