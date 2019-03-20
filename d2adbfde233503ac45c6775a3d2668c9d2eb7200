@@ -1,0 +1,8 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 20 Mar 2019 13:40:40 +0000
+Reviewed-on: https://review.rdoproject.org/r/19543
+Project: puppet/puppet-rsync-distgit
+Branch: refs/heads/stein-rdo
