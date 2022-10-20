@@ -7,7 +7,7 @@
 
 
 Name:           puppet-rsync
-Version:        XXX
+Version:        1.2.0
 Release:        2%{?alphatag}%{?dist}
 Summary:        Manages rsync clients, repositories, and servers, & providies defines to easily grab data via rsync.
 License:        ASL 2.0
