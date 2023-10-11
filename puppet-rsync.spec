@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppetlabs-rsync
-%global commit 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
+%global commit c8444dff52794db7118b5695b41b67ccc900612f
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-rsync
-Version:        XXX
-Release:        XXX
+Version:        1.2.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Manages rsync clients, repositories, and servers, & providies defines to easily grab data via rsync.
 License:        ASL 2.0
 
@@ -51,5 +51,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/rsync/
 
 
 %changelog
+* Wed Oct 11 2023 RDO <dev@lists.rdoproject.org> 1.2.0-1.c8444dfgit
+- Update to post 1.2.0 (c8444dff52794db7118b5695b41b67ccc900612f)
+
 
 
